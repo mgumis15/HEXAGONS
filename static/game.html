@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="three_ver97.js"></script>
+    <script src="js3D/Ui.js"></script>
+    <script src="js3D/OrbitControls.js"></script>
+    <script src="js3D/Settings.js"></script>
+    <script src="js3D/Player.js"></script>
+    <script src="js3D/Grid.js"></script>
+    <script src="js3D/Doors3D.js"></script>
+    <script src="js3D/Hex3D.js"></script>
+    <script src="js3D/Item.js"></script>
+    <script src="js3D/Light.js"></script>
+    <script src="js3D/Model.js"></script>
+    <script src="js3D/Level3D.js"></script>
+    <script src="js3D/Main3D.js"></script>
+
+    <!-- <script>
+        window.addEventListener("load", function () {
+            var live = new Level3D()
+        })
+
+    </script> -->
+
+    <style>
+        .settings {
+            position: relative;
+            left: 85%;
+            top: -720px;
+        }
+
+        #button {
+            position: absolute;
+        }
+
+        #root {
+            position: absolute;
+        }
+
+        .gameRange {
+            position: absolute;
+            top: 0;
+            z-index: 2;
+        }
+
+        .gameRange2 {
+            position: absolute;
+            top: 0;
+            left: 15vw;
+            z-index: 2;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="gameRange">
+        <input type="range" min="1" max="3" step="0.05" value="2" id="intensityLight" class="gameRange">
+        <input type="range" min="0" max="60" step="1" id="positionLight" class="gameRange2">
+    </header>
+    <div id="root"></div>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+}
+#root{
+    margin: 0;
+    padding: 0;
+    width:100vw;
+    height:100vh;
+    position: absolute;
+}
+#form{
+background-color: RGB(230,230,230);
+width:10%;
+height: 100%;
+}
+#json{
+    width:15%;
+    height:100%;
+    background-color: silver;
+    position: absolute;
+    top:0;
+    left:10%;
+}
+#right{
+    width:75%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:26%;
+}
+.img{
+    width:150px;
+    height: 150px;
+    background-image: url("hex.png");
+    background-size: 100%;
+    position: absolute;
+}
+.arrows{
+    background-image: url("arrow.png");
+    background-size: 100%;
+    width:36px;
+    height: 36px;
+    position: absolute;
+    top:10px;
+    left:58px;
+}
+.ps{
+    width:36px;
+    height: 36px;
+    position: absolute;
+    top:25px;
+    left:57px;
+}
+.button{
+   margin: 0 auto;
+   width:100%;
+   background-color: silver;
+}
+#oneHex{
+    color:red;
+}
+*{
+    user-select: none;
+    -webkit-user-select: none;
+}
+.gameRange{
+    position: absolute;
+}

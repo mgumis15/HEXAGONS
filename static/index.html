@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/script.js"></script>
+    <script src="Hex.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="root">
+        <!-- <form  method="POST" action="/oneHex"> -->
+        <div id="form">
+            <select name="select" id="select">
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+
+            </select>
+            <br>
+            <input type="button" value="Zapisz na serwer" name="write" id="write" class="button">
+            <br>
+            <input type="button" value="Wczytaj z serwera" name="read" id="read" class="button">
+            <br>
+            <input type="button" value="Walls" name="walls" id="walls" class="button">
+            <br>
+            <input type="button" value="Enemy" name="enemy" id="enemy" class="button">
+            <br>
+            <input type="button" value="Treasure" name="treasure" id="treasure" class="button">
+            <br>
+            <input type="button" value="Light" name="light" id="light" class="button">
+            <br>
+            <a href="hex.html" id="oneHex" class="button">ONE HEX</a>
+            <br>
+            <a href="game.html" id="gameHex" class="button">ONE HEX</a>
+            <br>
+        </div>
+        <!-- </form> -->
+        <textarea id="json"></textarea>
+        <div id="right"></div>
+    </div>
+
+</body>
+
+</html>
